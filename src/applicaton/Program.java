@@ -32,9 +32,13 @@ public class Program {
 		for(Seller obj: list) {
 			System.out.println(obj);
 		}
-		
-		
+			
+		System.out.println("=== TEST 3: seller findAll===");
+		Seller newSeller=new Seller(null, "Marisa", "Kirisame@gmail.com" , new Date(), 5000.00, department);
+		sellerDao.insert(newSeller);
+		System.out.println(newSeller);	
 
+		
 	}
 
 }
