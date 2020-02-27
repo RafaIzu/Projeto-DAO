@@ -36,7 +36,7 @@ public class Program {
 			System.out.println(obj);
 		}
 			
-		System.out.println("=== TEST 4: seller findAll===");
+		System.out.println("=== TEST 4: seller Insert===");
 		Seller newSeller=new Seller(null, "Marisa", "Kirisame@gmail.com" , new Date(), 5000.00, department);
 		sellerDao.insert(newSeller);
 		System.out.println(newSeller);
